@@ -3,6 +3,8 @@
 .*~
 *#
 *~
-*.emapper.*
 *.swp
 emappertmp*
+data/*
+!.gitkeep
+*_old

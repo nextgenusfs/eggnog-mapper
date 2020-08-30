@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#!/usr/bin/env python2
 import os
 from setuptools import setup, find_packages
     
@@ -13,6 +13,7 @@ CLASSIFIERS= [
     "Operating System :: Microsoft :: Windows",
     "Operating System :: POSIX :: Linux",
     "Programming Language :: Python",
+    "Programming Language :: Python :: 2.7",
     "Topic :: Scientific/Engineering :: Bio-Informatics",
     "Topic :: Software Development :: Libraries :: Python Modules",
     ]
@@ -40,6 +41,7 @@ try:
 
         },
         data_files = [],
+        scripts=['download_eggnog_data.py', 'emapper.py'],
 
         # metadata for upload to PyPI
         author = "Jaime Huerta-Cepas",
